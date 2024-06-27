@@ -7,7 +7,7 @@ import 'https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 contract I_Ayush16 is ERC20, ERC20Burnable {
     address public admin;
 
-    constructor() ERC20('I_Ayush16', 'BRB') {
+    constructor() ERC20('I_Ayush16', 'MTN') {
         _mint(msg.sender, 20000 * 10 ** 18);
         admin = msg.sender;
     }
